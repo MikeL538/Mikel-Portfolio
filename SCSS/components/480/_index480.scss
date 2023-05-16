@@ -1,0 +1,144 @@
+.nav-list_element-icon-burger {
+  > button {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 70px;
+
+    > svg {
+      height: 70px;
+      width: 70px;
+    }
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 767px) {
+  // Header
+
+  .nav-list {
+    margin-right: 0;
+
+    &_element,
+    &_element-icon {
+      display: none;
+    }
+  }
+
+  // First impression - page top
+
+  .section-title {
+    flex-direction: column;
+
+    &_header {
+      text-align: center;
+    }
+  }
+
+  .section-header {
+    padding: 0;
+  }
+
+  // Technologies and Tools
+
+  .section-tech {
+    &_list {
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      max-width: 600px;
+      width: 100%;
+
+      &-element {
+        margin: 0 auto;
+      }
+    }
+
+    &_title {
+      text-align: center;
+    }
+
+    &_desc {
+      text-align: center;
+    }
+  }
+
+  // Projects
+
+  .section-projects {
+    align-items: center;
+    justify-content: center;
+
+    &_image {
+      height: 100%;
+      margin-bottom: 12px;
+      max-height: 220px;
+      max-width: 310px;
+      width: 100%;
+    }
+
+    &_list {
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      max-width: 320px;
+      width: 100%;
+
+      &-element {
+        max-width: 310px;
+        width: 100%;
+
+        &-title {
+          font-size: 26px;
+        }
+
+        &-desc {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .projects-box {
+    height: 300px;
+    width: 320px;
+    margin-bottom: 280px;
+    overflow: visible;
+    &:hover .projects-box_description {
+      transform: translate(-50%, 57%);
+    }
+
+    &_description {
+      height: 280px;
+      width: 310px;
+
+      position: absolute;
+      transform: translate(-50%, 57%);
+    }
+
+    > a {
+      &:focus .projects-box_description {
+        transform: translate(-50%, 57%);
+      }
+    }
+  }
+
+  .footer-list {
+    margin: 0;
+
+    &_element {
+      display: none;
+    }
+
+    &_element-icon {
+      margin: 0 auto;
+      margin-right: 25px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

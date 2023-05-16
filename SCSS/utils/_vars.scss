@@ -1,0 +1,17 @@
+$color: (
+  "text": #fdf5e6,
+  "body": #375877,
+  "icon": white,
+  "interact": #ffd700,
+  "border": yellow,
+  "header": yellowgreen,
+  "line": brown,
+  "project": #e0ffff,
+);
+
+@function color($key) {
+  @return map-get($color, $key);
+}
+
+$transition-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$transition-slow: 750ms cubic-bezier(0.4, 0, 0.2, 1);

@@ -1,0 +1,103 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  // Header
+  .nav-list {
+    margin-right: 60px;
+
+    &_element {
+      display: none;
+    }
+  }
+
+  .nav-list_element-icon-burger {
+    margin-left: 32px;
+  }
+
+  .section-header {
+    padding: 0;
+  }
+
+  // Technologies and Tools
+
+  .section-tech {
+    &_list {
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      max-width: 600px;
+      width: 100%;
+    }
+  }
+
+  // Projects
+
+  .section-projects {
+    align-items: center;
+    justify-content: center;
+
+    &_image {
+      height: 220px;
+      margin-bottom: 12px;
+      width: 340px;
+    }
+
+    &_list {
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: left;
+      margin-right: 50px;
+      max-width: 620px;
+      width: 100%;
+
+      &-element {
+        width: 340px;
+
+        &-title {
+          font-size: 26px;
+        }
+
+        &-desc {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .projects-box {
+    height: 300px;
+    overflow: visible;
+    width: 350px;
+    &:hover .projects-box_description {
+      transform: translate(56%, -51%);
+    }
+
+    &_description {
+      height: 280px;
+      position: absolute;
+      transform: translate(56%, -51%);
+      width: 330px;
+    }
+
+    > a {
+      &:focus .projects-box_description {
+        transform: translate(56%, -51%);
+      }
+    }
+  }
+
+  // Footer
+
+  .footer-list {
+    margin: 0;
+
+    &_element {
+      display: none;
+    }
+
+    &_element-icon {
+      margin-right: 40px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
