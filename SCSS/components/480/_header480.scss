@@ -30,15 +30,18 @@
 @media screen and (min-width: 1px) and (max-width: 1199px) {
   // Mobile Menu
   .section-mobile-menu {
+    animation: gradient 30s ease infinite;
     align-items: center;
-    background-color: yellowgreen;
-    display: flex;
+    background: {
+      image: color("mobile-background");
+      size: 800% 800%;
+    }
     display: flex;
     flex-direction: column;
     height: 100vh;
     left: 50%;
     padding-top: 40px;
-    position: absolute;
+    position: fixed;
     top: 50%;
     transform: translate(100%, -50%);
     transition: $transition-slow;
