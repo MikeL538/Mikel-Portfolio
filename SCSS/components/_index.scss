@@ -181,8 +181,10 @@ body {
 
 .footer {
   background: {
-    image: linear-gradient(-45deg, #ff00005b, #ff000079, #0000ff79);
+    image: color("mobile-background");
+    size: 800% 800%;
   }
+  animation: gradient 60s ease infinite;
   border-top: 2px solid color("line");
   height: 110px;
 }
