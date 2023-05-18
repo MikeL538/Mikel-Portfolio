@@ -17,31 +17,6 @@
 }
 
 @media screen and (min-width: 1px) and (max-width: 767px) {
-  // Header
-
-  .nav-list {
-    margin-right: 0;
-
-    &_element,
-    &_element-icon {
-      display: none;
-    }
-  }
-
-  // First impression - page top
-
-  .section-title {
-    flex-direction: column;
-
-    &_header {
-      text-align: center;
-    }
-  }
-
-  .section-header {
-    padding: 0;
-  }
-
   // Technologies and Tools
 
   .section-tech {
@@ -75,7 +50,7 @@
     &_image {
       height: 100%;
       margin-bottom: 12px;
-      max-height: 220px;
+      max-height: 160px;
       max-width: 310px;
       width: 100%;
     }
@@ -103,12 +78,13 @@
   }
 
   .projects-box {
-    height: 300px;
+    max-height: 250px;
+    height: 100%;
     width: 320px;
-    margin-bottom: 280px;
+    margin-bottom: 290px;
     overflow: visible;
     &:hover .projects-box_description {
-      transform: translate(-50%, 57%);
+      transform: translate(-50%, 45%);
     }
 
     &_description {
@@ -116,12 +92,12 @@
       width: 310px;
 
       position: absolute;
-      transform: translate(-50%, 57%);
+      transform: translate(-50%, 45%);
     }
 
     > a {
       &:focus .projects-box_description {
-        transform: translate(-50%, 57%);
+        transform: translate(-50%, 45%);
       }
     }
   }

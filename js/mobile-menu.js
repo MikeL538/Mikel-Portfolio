@@ -1,7 +1,7 @@
 (() => {
-  const mobileMenu = document.querySelector(".burger-menu__container");
+  const mobileMenu = document.querySelector(".section-mobile-menu");
   const openMenuBtn = document.querySelector(".nav-list_element-icon-button");
-  const closeMenuBtn = document.querySelector(".burger-menu__close-btn");
+  const closeMenuBtn = document.querySelector(".section-mobile-menu_close");
 
   const toggleMenu = () => {
     const isMenuOpen =
@@ -19,7 +19,7 @@
   closeMenuBtn.addEventListener("click", toggleMenu);
 
   // Close the mobile menu on wider screens if the device orientation changes
-  window.matchMedia("(min-width: 768px)").addEventListener("change", (e) => {
+  window.matchMedia("(min-width: 1199px)").addEventListener("change", (e) => {
     if (!e.matches) return;
     mobileMenu.classList.remove("is-open");
     openMenuBtn.setAttribute("aria-expanded", false);

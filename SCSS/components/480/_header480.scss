@@ -1,0 +1,124 @@
+@import "../../utils/vars";
+
+@media screen and (min-width: 1px) and (max-width: 767px) {
+  // Header
+
+  .nav-list {
+    margin-right: 0;
+
+    &_element,
+    &_element-icon {
+      display: none;
+    }
+  }
+
+  // First impression - page top
+
+  .section-title {
+    flex-direction: column;
+
+    &_header {
+      text-align: center;
+    }
+  }
+
+  .section-header {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 1199px) {
+  // Mobile Menu
+  .section-mobile-menu {
+    align-items: center;
+    background-color: yellowgreen;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    left: 50%;
+    padding-top: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translate(100%, -50%);
+    transition: $transition-slow;
+    width: 100vw;
+    z-index: 10;
+
+    &_close {
+      background-color: transparent;
+      border-radius: 50%;
+      border-radius: 50%;
+      border: 1px solid red;
+      border: none;
+      cursor: pointer;
+      height: 30px;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      width: 30px;
+
+      > svg {
+        height: 50px;
+        transform: translate(-1%, 2%);
+        width: 50px;
+      }
+    }
+
+    &.is-open {
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .mobile-nav-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+    &_element {
+      margin-bottom: 20px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      > a {
+        color: color("text");
+        font-size: 40px;
+        text-decoration: none;
+        &:hover,
+        &:focus {
+          color: color("interact");
+        }
+      }
+    }
+  }
+
+  .mobile-nav-list-icons {
+    align-items: flex-end;
+    padding-bottom: 50vh;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100vw;
+
+    &_element-icon {
+      &-link {
+        border-radius: 50%;
+        display: block;
+
+        > svg {
+          height: 50px;
+          width: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-mobile-menu {
+    display: none;
+  }
+}
