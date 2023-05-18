@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .nav-list {
+    &_element {
+      display: none;
+
+      &-icon {
+        &-link {
+          border-radius: 50%;
+          display: block;
+          padding: 10px;
+
+          > svg {
+            height: 30px;
+            width: 30px;
+          }
+        }
+      }
+    }
+  }
+}

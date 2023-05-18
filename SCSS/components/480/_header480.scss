@@ -40,7 +40,8 @@
     flex-direction: column;
     height: 100vh;
     left: 50%;
-    padding-top: 40px;
+    padding-top: 7vh;
+    padding-top: 7svh;
     position: fixed;
     top: 50%;
     transform: translate(100%, -50%);
@@ -49,7 +50,7 @@
     z-index: 10;
 
     &_close {
-      background-color: transparent;
+      // background-color: transparent;
       border-radius: 50%;
       border-radius: 50%;
       border: 1px solid red;
@@ -58,7 +59,8 @@
       height: 30px;
       position: absolute;
       right: 20px;
-      top: 20px;
+      top: 3vh;
+      top: 3svh;
       width: 30px;
 
       > svg {
@@ -107,6 +109,8 @@
     width: 100vw;
 
     &_element-icon {
+      padding-bottom: 7vh;
+      padding-bottom: 7svh;
       &-link {
         border-radius: 50%;
         display: block;
