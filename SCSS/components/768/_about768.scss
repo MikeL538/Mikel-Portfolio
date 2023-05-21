@@ -1,0 +1,27 @@
+@import "../../utils/vars";
+
+@media screen and (min-width: 1px) and (max-width: 1199px) {
+  .section-about {
+    animation: gradient 60s ease infinite;
+    background: {
+      image: color("mobile-background");
+      size: 800% 800%;
+    }
+    margin: 0;
+  }
+
+  .about-left {
+    margin: 0 auto;
+    max-width: 550px;
+    text-align: center;
+    white-space: wrap;
+    width: 100%;
+  }
+
+  .about-right {
+    margin: 0 auto;
+    margin: 30px auto;
+    max-width: 650px;
+    width: 100%;
+  }
+}

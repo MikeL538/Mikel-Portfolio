@@ -2,19 +2,20 @@
 
 .section-about {
   align-items: center;
+  border-radius: 32px;
   border: 5px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 25px auto;
   max-width: 1200px;
+  overflow: hidden;
   padding: 0;
-
   width: 100%;
 }
 
 .about-top {
-  background-color: rgba(89, 89, 224, 0.826);
+  background-color: rgba(130, 130, 185, 0.826);
   border-bottom: 5px solid black;
   font-size: 28px;
   letter-spacing: 0.06em;
@@ -30,14 +31,19 @@
   }
 }
 
+.star-checked {
+  color: orange;
+}
+
 .about-left {
-  background-color: #d2d2d2;
+  background-color: #f1f1f1;
+  border-bottom-left-radius: 12px;
+  color: #000;
   padding-top: 23px;
   padding: 20.6px;
   text-align: right;
   white-space: nowrap;
   width: 390px;
-  color: #000;
 
   &_title {
     font-size: 26px;
@@ -68,10 +74,11 @@
 
 .about-right {
   background-color: #fff;
-  height: 650px;
+  border-bottom-right-radius: 12px;
+  color: #000;
+  min-height: 676px;
   padding: 20px;
   width: 800px;
-  color: #000;
 
   &_title {
     font-size: 26px;
