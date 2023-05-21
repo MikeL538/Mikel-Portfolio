@@ -5,6 +5,12 @@
   }
 }
 
+@media print {
+  .header-about {
+    display: none;
+  }
+}
+
 // Header
 
 .header {
@@ -72,4 +78,8 @@
       }
     }
   }
+}
+
+#menu-active {
+  color: color("interact");
 }

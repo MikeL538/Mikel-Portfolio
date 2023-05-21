@@ -1,6 +1,8 @@
-@use "./components/index.scss";
+@use "./components/global.scss";
 @use "./components/header.scss";
-@use "./components/480/index480";
+@use "./components/index.scss";
+@use "./components/about";
 @use "./components/480/header480";
-@use "./components/768/index768";
+@use "./components/480/index480";
 @use "./components/768/header768";
+@use "./components/768/index768";

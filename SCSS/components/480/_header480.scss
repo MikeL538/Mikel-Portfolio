@@ -29,7 +29,7 @@
 
 @media screen and (min-width: 1px) and (max-width: 1199px) {
   // Mobile Menu
-  .section-mobile-menu {
+  .div-mobile-menu {
     animation: gradient 30s ease infinite;
     align-items: center;
     background: {
@@ -125,7 +125,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .section-mobile-menu {
+  .div-mobile-menu {
     display: none;
   }
 }

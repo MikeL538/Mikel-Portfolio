@@ -1,24 +1,5 @@
 @import "../utils/vars";
 
-* {
-  box-sizing: border-box;
-  font-family: "Poltawski Nowy", serif;
-  margin: 0;
-  outline: transparent;
-  padding: 0;
-}
-
-body {
-  background-color: color("body");
-  color: color("text");
-}
-
-.section {
-  margin: 0 auto;
-  max-width: 1600px;
-  padding: 94px 0;
-}
-
 // First impression - page top
 
 .section-title {
@@ -65,6 +46,7 @@ body {
   &_list {
     display: flex;
     list-style: none;
+    margin-bottom: 40px;
 
     &-element {
       margin-right: 45px;
@@ -97,10 +79,10 @@ body {
 
   &_image {
     border-radius: 10%;
-    height: 275px;
+    height: 300px;
     margin-bottom: 20px;
     margin-top: 10px;
-    width: 430px;
+    width: 440px;
   }
 
   &_list {
@@ -139,7 +121,7 @@ body {
   background-color: #313131b6;
   border-radius: 10%;
   display: flex;
-  height: 380px;
+  height: 400px;
   justify-content: center;
   overflow: hidden;
   padding: 10px;
@@ -166,7 +148,7 @@ body {
       1px 4px 6px rgb(255, 255, 255);
     border: 1px solid color("border");
     display: flex;
-    height: 350px;
+    height: 375px;
     left: 50%;
     padding: 50px;
     position: absolute;
@@ -174,10 +156,17 @@ body {
     transform: translate(-50%, -175%);
     transition: $transition-slow;
     width: 430px;
+    font-size: 21px;
   }
 }
 
 //Footer
+
+@media print {
+  .footer-about {
+    display: none;
+  }
+}
 
 .footer {
   background: {

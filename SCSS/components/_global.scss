@@ -1,0 +1,29 @@
+@import "../utils/vars";
+
+* {
+  box-sizing: border-box;
+  font-family: "Poltawski Nowy", serif;
+  margin: 0;
+  outline: transparent;
+  padding: 0;
+}
+
+body {
+  background-color: color("body");
+  color: color("text");
+}
+
+.section {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 94px 0;
+}
+
+a {
+  text-decoration: none;
+  color: color("text");
+}
+
+ul {
+  list-style: none;
+}

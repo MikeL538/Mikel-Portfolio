@@ -23,14 +23,17 @@
 
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
+
   <body>
     <header class="header">
       <section class="section section-header">
-        <h2 class="logo"><a href="#">Mikel</a></h2>
+        <h2 class="logo"><a href="./index.html">Mikel</a></h2>
         <nav class="nav">
           <ul class="nav-list">
-            <li class="nav-list_element"><a href="./index.html">Home</a></li>
-            <li class="nav-list_element"><a href="#">About</a></li>
+            <li class="nav-list_element">
+              <a id="menu-active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-list_element"><a href="./about.html">About</a></li>
             <li class="nav-list_element"><a href="#">Technologies</a></li>
             <li class="nav-list_element"><a href="#">Projects</a></li>
             <li class="nav-list_element"><a href="#">Contact</a></li>
@@ -92,8 +95,8 @@
       </section>
 
       <!-- Mobile Menu -->
-      <section class="section-mobile-menu">
-        <button class="section-mobile-menu_close">
+      <div class="div-mobile-menu">
+        <button class="div-mobile-menu_close">
           <svg>
             <use href="./images/icons.svg#icon-x"></use>
           </svg>
@@ -101,9 +104,11 @@
         <nav class="mobile-nav">
           <ul class="mobile-nav-list">
             <li class="mobile-nav-list_element">
-              <a href="./index.html">Home</a>
+              <a id="menu-active" href="./index.html">Home</a>
             </li>
-            <li class="mobile-nav-list_element"><a href="#">About</a></li>
+            <li class="mobile-nav-list_element">
+              <a href="./about.html">About</a>
+            </li>
             <li class="mobile-nav-list_element">
               <a href="#">Technologies</a>
             </li>
@@ -157,7 +162,7 @@
             </li>
           </ul>
         </nav>
-      </section>
+      </div>
     </header>
 
     <main>
@@ -174,7 +179,7 @@
           <br />
           My name is<br />
           Michał Lipiak<br />
-          Frontend developer
+          Frontend Developers
         </h1>
         <img
           class="section-title_image"
@@ -207,7 +212,6 @@
               <use href="./images/icons.svg#icon-sass"></use>
             </svg>
           </li>
-
           <li class="section-tech_list-element">
             <svg>
               <use href="./images/icons.svg#icon-tailwind"></use>
@@ -224,6 +228,45 @@
             </svg>
           </li>
         </ul>
+
+        <!-- <p class="section-tech_desc">Tools I've been using</p>
+        <ul class="section-tech_list">
+          <li class="section-tech_list-element">
+            <svg>
+              <use href="./images/icons.svg#icon-html"></use>
+            </svg>
+          </li>
+          <li class="section-tech_list-element">
+            <svg>
+              <use href="./images/icons.svg#icon-css"></use>
+            </svg>
+          </li>
+          <li class="section-tech_list-element">
+            <svg>
+              <use href="./images/icons.svg#icon-js"></use>
+            </svg>
+          </li>
+          <li class="section-tech_list-element">
+            <svg>
+              <use href="./images/icons.svg#icon-sass"></use>
+            </svg>
+          </li>
+          <li class="section-tech_list-element">
+            <svg>
+              <use href="./images/icons.svg#icon-tailwind"></use>
+            </svg>
+          </li>
+          <li class="section-tech_list-element">
+            <svg>
+              <use href="./images/icons.svg#icon-github"></use>
+            </svg>
+          </li>
+          <li class="section-tech_list-element">
+            <svg>
+              <use href="./images/icons.svg#icon-vscode"></use>
+            </svg>
+          </li>
+        </ul> -->
       </section>
 
       <section class="section section-projects">
@@ -244,11 +287,12 @@
                   <h3 class="section-projects_list-element-title">Webstudio</h3>
                   <figcaption class="section-projects_list-element-desc">
                     <div class="projects-box_description">
-                      It's website of fictional company. This is the first
-                      project which was made by me without any Youtube tutorials
-                      or other step by step materials. It's project from
-                      programming course called Fullstack Frontend Developer
-                      organised by GOIT.
+                      This website is a representation of a fictional company.
+                      It marks a significant milestone for me as it is the first
+                      project I have developed independently, without relying on
+                      Youtube tutorials or other step-by-step materials. This
+                      project was completed as part of my Fullstack Frontend
+                      Developer course organized by GOIT.
                     </div>
                   </figcaption>
                 </figure>
@@ -266,9 +310,11 @@
                   <h3 class="section-projects_list-element-title">Treine</h3>
                   <figcaption class="section-projects_list-element-desc">
                     <div class="projects-box_description">
-                      A website of fictional fitness company which I found on
-                      Figma. I changed it a little and added modal window. Link
-                      to original Figma under button.
+                      This is a website for a fictional fitness company that I
+                      discovered on Figma. I made a few modifications to the
+                      original design and incorporated a modal window feature.
+                      You can find a link to the original Figma design below the
+                      button.
                     </div>
                   </figcaption>
                 </figure>
@@ -291,9 +337,11 @@
                   </h3>
                   <figcaption class="section-projects_list-element-desc">
                     <div class="projects-box_description">
-                      I saw a video on Youtube with two-sided portfolio so I
-                      decided to do it on my own with a credit card and here is
-                      the effect of the bank card that flips after click.
+                      After watching a video on YouTube showcasing a two-sided
+                      portfolio, I was inspired to create my own version using a
+                      credit card design. I implemented a click event that
+                      triggers a flip effect, resulting in an interactive
+                      experience where the bank card flips.
                     </div>
                   </figcaption>
                 </figure>
@@ -304,10 +352,14 @@
       </section>
 
       <footer class="footer">
-        <section class="section section-footer">
+        <div class="section section-footer">
           <ul class="footer-list">
-            <li class="footer-list_element"><a href="#">Home</a></li>
-            <li class="footer-list_element"><a href="#">About</a></li>
+            <li class="footer-list_element">
+              <a id="menu-active" href="./index.html">Home</a>
+            </li>
+            <li class="footer-list_element">
+              <a href="./about.html">About</a>
+            </li>
             <li class="footer-list_element"><a href="#">Technologies</a></li>
             <li class="footer-list_element"><a href="#">Projects</a></li>
             <li class="footer-list_element"><a href="#">Contact</a></li>
@@ -356,7 +408,7 @@
               </a>
             </li>
           </ul>
-        </section>
+        </div>
       </footer>
     </main>
 
