@@ -1,0 +1,77 @@
+@import "../utils/vars";
+
+.project-section {
+  max-width: 1200px;
+  width: 100%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  white-space: wrap;
+  padding-bottom: 30px;
+}
+
+.project {
+  &_title {
+    font-size: 36px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  &_list {
+    &-element {
+      margin-bottom: 70px;
+    }
+
+    &-figure {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &-img {
+      max-height: 300px;
+      height: 100%;
+      max-width: 500px;
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    &-title {
+      font-size: 30px;
+      margin-left: 25px;
+      margin-bottom: 15px;
+    }
+
+    &-desc {
+      display: block;
+      max-width: 600px;
+      width: 100vw;
+      margin-left: 25px;
+      font-size: 20px;
+      text-align: justify;
+    }
+
+    &-link {
+      color: color("interact");
+      white-space: wrap;
+    }
+
+    &-h4 {
+      margin: 5px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .project_list {
+    &-title {
+      margin-top: 25px;
+      text-align: center;
+    }
+
+    &-desc {
+      margin: 0 auto;
+      padding: 0 7px;
+    }
+  }
+}
