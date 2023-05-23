@@ -1,27 +1,43 @@
 @import "../../utils/vars";
 
-@media screen and (min-width: 1px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .section-about {
     animation: gradient 60s ease infinite;
     background: {
       image: color("mobile-background");
       size: 800% 800%;
     }
+    border-radius: 0;
     margin: 0;
   }
 
   .about-left {
+    border-radius: 0;
     margin: 0 auto;
     max-width: 550px;
     text-align: center;
     white-space: wrap;
     width: 100%;
+    height: 690px;
+
+    &_list {
+      &-skills {
+        margin: 0 auto;
+        max-width: fit-content;
+        padding-right: 20px;
+        text-align: right;
+      }
+    }
   }
 
   .about-right {
+    border-radius: 0;
     margin: 0 auto;
-    margin: 30px auto;
-    max-width: 650px;
+    max-width: 550px;
     width: 100%;
+
+    &_title {
+      text-align: center;
+    }
   }
 }
