@@ -1,0 +1,32 @@
+@import "../utils/vars";
+
+.section-contact {
+  height: 500px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 60px;
+  height: 100vh;
+  height: 100svh;
+}
+
+.contact-list {
+  font-size: 20px;
+
+  &_element {
+    margin-bottom: 35px;
+
+    > a:focus svg {
+      transform: scale(1.2);
+    }
+  }
+
+  &_icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
