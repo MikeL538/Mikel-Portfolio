@@ -14,11 +14,11 @@
 // Header
 
 .header {
+  animation: gradient 60s ease infinite;
   background: {
     image: color("mobile-background");
     size: 800% 800%;
   }
-  animation: gradient 60s ease infinite;
   border-bottom: 2px solid color("line");
 }
 

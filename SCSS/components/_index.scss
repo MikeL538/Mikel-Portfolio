@@ -65,23 +65,17 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding-bottom: 174px;
+  padding-bottom: 100px;
 
   &_title {
     font-size: 32px;
-    margin-bottom: 12px;
-  }
-
-  &_desc {
-    font-size: 20px;
     margin-bottom: 40px;
   }
 
   &_image {
     border-radius: 10%;
     height: 300px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin: 10px 0 20px 0;
     width: 440px;
   }
 
@@ -143,10 +137,11 @@
     align-items: center;
     background-color: color("project");
     border-radius: 10%;
+    border: 1px solid color("border");
     box-shadow: 0px 1px 1px rgb(255, 255, 255), 0px 4px 4px rgb(255, 255, 255),
       1px 4px 6px rgb(255, 255, 255);
-    border: 1px solid color("border");
     display: flex;
+    font-size: 21px;
     height: 375px;
     left: 50%;
     padding: 50px;
@@ -155,7 +150,6 @@
     transform: translate(-50%, -175%);
     transition: $transition-slow;
     width: 430px;
-    font-size: 21px;
   }
 }
 
@@ -168,11 +162,11 @@
 }
 
 .footer {
+  animation: gradient 60s ease infinite;
   background: {
     image: color("mobile-background");
     size: 800% 800%;
   }
-  animation: gradient 60s ease infinite;
   border-top: 2px solid color("line");
   height: 110px;
 }
@@ -181,12 +175,13 @@
   display: flex;
   height: 110px;
   justify-content: center;
+  align-items: center;
   padding: 0;
 }
 
 .footer-list {
-  align-items: center;
   display: flex;
+  align-items: center;
   list-style: none;
   margin-right: 100px;
 

@@ -9,6 +9,10 @@
     &_element,
     &_element-icon {
       display: none;
+
+      &-icon-button {
+        margin-right: 30px;
+      }
     }
   }
 
@@ -30,8 +34,8 @@
 @media screen and (min-width: 1px) and (max-width: 1199px) {
   // Mobile Menu
   .div-mobile-menu {
-    animation: gradient 30s ease infinite;
     align-items: center;
+    animation: gradient 30s ease infinite;
     background: {
       image: color("mobile-background");
       size: 800% 800%;
@@ -40,8 +44,8 @@
     flex-direction: column;
     height: 100vh;
     left: 50%;
-    padding-top: 8vh;
     padding-top: 8svh;
+    padding-top: 8vh;
     position: fixed;
     top: 50%;
     transform: translate(100%, -50%);
