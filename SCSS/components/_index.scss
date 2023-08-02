@@ -65,6 +65,8 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+
+  margin: 0 10px;
   padding-bottom: 100px;
 
   &_title {
@@ -76,16 +78,21 @@
     border-radius: 10%;
     height: 300px;
     margin: 10px 0 20px 0;
-    width: 440px;
+    max-width: 440px;
+    padding: 5px;
+    width: 100%;
   }
 
   &_list {
     display: flex;
-    gap: 70px;
+    gap: 10px;
+    justify-content: space-evenly;
     list-style: none;
+    width: 100%;
 
     &-element {
-      width: 400px;
+      max-width: 400px;
+      width: 100%;
 
       &:last-child {
         margin-right: 0;
@@ -119,7 +126,8 @@
   justify-content: center;
   overflow: hidden;
   position: relative;
-  width: 450px;
+  max-width: 450px;
+  width: 100%;
 
   &:hover .projects-box_description {
     transform: translate(-50%, -51%);
@@ -144,12 +152,13 @@
     font-size: 21px;
     height: 375px;
     left: 50%;
+    max-width: 430px;
     padding: 50px;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -175%);
     transition: $transition-slow;
-    width: 430px;
+    width: 100%;
   }
 }
 
