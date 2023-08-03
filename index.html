@@ -28,18 +28,23 @@
     <header class="header">
       <section class="section section-header">
         <h2 class="logo"><a href="./index.html">Mikel</a></h2>
+
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-list_element">
-              <a class="menu-active" href="./index.html">Home</a>
+              <a class="menu-active" href="./index.html" data-translate="home"
+                >Home
+              </a>
             </li>
-            <li class="nav-list_element"><a href="./about.html">About</a></li>
+            <li class="nav-list_element">
+              <a href="./about.html" data-translate="about">About</a>
+            </li>
 
             <li class="nav-list_element">
-              <a href="./projects.html">Projects</a>
+              <a href="./projects.html" data-translate="projects">Projects</a>
             </li>
             <li class="nav-list_element">
-              <a href="./contact.html">Contact</a>
+              <a href="./contact.html" data-translate="contact">Contact</a>
             </li>
             <li class="nav-list_element-icon">
               <a
@@ -86,6 +91,15 @@
               </a>
             </li>
 
+            <li class="nav-list_element-language">
+              <button id="en-language">
+                <img src="./images/uk.jpg" />
+              </button>
+              <button id="pl-language">
+                <img src="./images/pl.jpg" />
+              </button>
+            </li>
+
             <!-- Mobile Menu Button -->
             <li class="nav-list_element-icon-burger">
               <button class="nav-list_element-icon-button">
@@ -108,16 +122,18 @@
         <nav class="mobile-nav">
           <ul class="mobile-nav-list">
             <li class="mobile-nav-list_element">
-              <a class="menu-active" href="./index.html">Home</a>
+              <a class="menu-active" href="./index.html" data-translate="home"
+                >Home
+              </a>
             </li>
             <li class="mobile-nav-list_element">
-              <a href="./about.html">About</a>
+              <a href="./about.html" data-translate="about">About</a>
             </li>
             <li class="mobile-nav-list_element">
-              <a href="./projects.html">Projects</a>
+              <a href="./projects.html" data-translate="projects">Projects</a>
             </li>
             <li class="mobile-nav-list_element">
-              <a href="./contact.html">Contact</a>
+              <a href="./contact.html" data-translate="contact">Contact</a>
             </li>
           </ul>
           <ul class="mobile-nav-list-icons">
@@ -173,7 +189,7 @@
     <main>
       <section class="section section-title">
         <h1 class="section-title_header">
-          Hi!&nbsp;
+          <span data-translate="welcome">Hi!</span>&nbsp;
           <svg width="60" height="60">
             <use
               href="./images/icons.svg#icon-hello"
@@ -182,7 +198,7 @@
             ></use>
           </svg>
           <br />
-          My name is<br />
+          <span data-translate="welcome2">My name is</span><br />
           Michał Lipiak<br />
           Frontend Developer
         </h1>
@@ -194,8 +210,12 @@
       </section>
 
       <section class="section section-tech">
-        <h2 class="section-tech_title">Technologies and Tools</h2>
-        <p class="section-tech_desc">Technologies I've worked with</p>
+        <h2 class="section-tech_title" data-translate="technologies">
+          Technologies and Tools
+        </h2>
+        <p class="section-tech_desc" data-translate="technologiesWorked">
+          Technologies I've worked with
+        </p>
         <ul class="section-tech_list">
           <li class="section-tech_list-element">
             <svg>
@@ -275,7 +295,9 @@
       </section>
 
       <section class="section section-projects">
-        <h2 class="section-projects_title">Recent Projects</h2>
+        <h2 class="section-projects_title" data-translate="recentProjects">
+          Recent Projects
+        </h2>
 
         <ul class="section-projects_list">
           <li class="section-projects_list-element">
@@ -284,7 +306,7 @@
                 href="https://mikel538.github.io/goit-markup-hw-08/index.html"
                 target="_blank"
               >
-                <figure>
+                <figure class="section-projects_figure">
                   <img
                     class="section-projects_image"
                     src="./images/webstudio.jpg"
@@ -292,7 +314,10 @@
                   />
                   <h3 class="section-projects_list-element-title">Webstudio</h3>
                   <figcaption class="section-projects_list-element-desc">
-                    <div class="projects-box_description">
+                    <div
+                      class="projects-box_description"
+                      data-translate="projectDesc1"
+                    >
                       This website is a representation of a fictional company.
                       It marks a significant milestone for me as it is the first
                       project I have developed independently, without relying on
@@ -311,7 +336,7 @@
                 href="https://mikel538.github.io/JavaScript-GOIT-Exercises/"
                 target="_blank"
               >
-                <figure>
+                <figure class="section-projects_figure">
                   <img
                     class="section-projects_image"
                     src="./images/JS-tasks.png"
@@ -321,8 +346,11 @@
                     JavaScript GOIT Exercises
                   </h3>
                   <figcaption class="section-projects_list-element-desc">
-                    <div class="projects-box_description">
-                      This is a pack of tasks showcasing my skills in JavaScript
+                    <div
+                      class="projects-box_description"
+                      data-translate="projectDesc2"
+                    >
+                      The pack of tasks showcasing my skills in JavaScript
                       programming. These tasks were originally prepared by GOIT
                       for their course, which I have successfully completed and
                       then improved upon in this project.
@@ -338,7 +366,7 @@
                 href="https://mikel538.github.io/Anemone-Florist/"
                 target="_blank"
               >
-                <figure>
+                <figure class="section-projects_figure">
                   <img
                     class="section-projects_image"
                     src="./images/anemone.jpg"
@@ -346,7 +374,10 @@
                   />
                   <h3 class="section-projects_list-element-title">Anemone</h3>
                   <figcaption class="section-projects_list-element-desc">
-                    <div class="projects-box_description">
+                    <div
+                      class="projects-box_description"
+                      data-translate="projectDesc3"
+                    >
                       This website showcases a fictional florist named
                       "Anemone." Originally a team project by GOIT, we
                       successfully completed it together. However, I wanted to
@@ -366,17 +397,19 @@
         <div class="section section-footer">
           <ul class="footer-list">
             <li class="footer-list_element">
-              <a class="menu-active" href="./index.html">Home</a>
+              <a class="menu-active" href="./index.html" data-translate="home"
+                >Home
+              </a>
             </li>
             <li class="footer-list_element">
-              <a href="./about.html">About</a>
+              <a href="./about.html" data-translate="about">About</a>
             </li>
 
             <li class="footer-list_element">
-              <a href="./projects.html">Projects</a>
+              <a href="./projects.html" data-translate="projects">Projects</a>
             </li>
             <li class="footer-list_element">
-              <a href="./contact.html">Contact</a>
+              <a href="./contact.html" data-translate="contact">Contact</a>
             </li>
             <li class="footer-list_element-icon">
               <a
@@ -434,5 +467,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/mobile-menu.js"></script>
+    <script src="./js/lagnuage-selector.js"></script>
   </body>
 </html>

@@ -47,19 +47,24 @@
     align-items: center;
     justify-content: center;
 
+    &_figure {
+      width: 300px;
+    }
+
     &_image {
       height: 100%;
       margin-bottom: 12px;
-      max-height: 160px;
-      max-width: 310px;
+      max-height: 180px;
+      max-width: 340px;
       width: 100%;
+      padding: 0;
     }
 
     &_list {
       flex-wrap: wrap;
       gap: 30px;
       justify-content: center;
-      max-width: 320px;
+      max-width: 340px;
       width: 100%;
 
       &-element {
@@ -71,7 +76,7 @@
         }
 
         &-desc {
-          font-size: 18px;
+          font-size: 16px;
         }
       }
     }

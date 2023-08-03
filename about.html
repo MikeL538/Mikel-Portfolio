@@ -34,15 +34,19 @@
         <h2 class="logo"><a href="./index.html">Mikel</a></h2>
         <nav class="nav">
           <ul class="nav-list">
-            <li class="nav-list_element"><a href="./index.html">Home</a></li>
             <li class="nav-list_element">
-              <a class="menu-active" href="./about.html">About</a>
+              <a href="./index.html" data-translate="home">Home</a>
             </li>
             <li class="nav-list_element">
-              <a href="./projects.html">Projects</a>
+              <a class="menu-active" href="./about.html" data-translate="about"
+                >About</a
+              >
             </li>
             <li class="nav-list_element">
-              <a href="./contact.html">Contact</a>
+              <a href="./projects.html" data-translate="projects">Projects</a>
+            </li>
+            <li class="nav-list_element">
+              <a href="./contact.html" data-translate="contact">Contact</a>
             </li>
             <li class="nav-list_element-icon">
               <a
@@ -89,6 +93,15 @@
               </a>
             </li>
 
+            <li class="nav-list_element-language">
+              <button id="en-language">
+                <img src="./images/uk.jpg" />
+              </button>
+              <button id="pl-language">
+                <img src="./images/pl.jpg" />
+              </button>
+            </li>
+
             <!-- Mobile Menu Button -->
             <li class="nav-list_element-icon-burger">
               <button class="nav-list_element-icon-button">
@@ -111,16 +124,18 @@
         <nav class="mobile-nav">
           <ul class="mobile-nav-list">
             <li class="mobile-nav-list_element">
-              <a href="./index.html">Home</a>
+              <a href="./index.html" data-translate="home">Home</a>
             </li>
             <li class="mobile-nav-list_element">
-              <a class="menu-active" href="./about.html">About</a>
+              <a class="menu-active" href="./about.html" data-translate="about"
+                >About</a
+              >
             </li>
             <li class="mobile-nav-list_element">
-              <a href="./projects.html">Projects</a>
+              <a href="./projects.html" data-translate="projects">Projects</a>
             </li>
             <li class="mobile-nav-list_element">
-              <a href="./contact.html">Contact</a>
+              <a href="./contact.html" data-translate="contact">Contact</a>
             </li>
           </ul>
           <ul class="mobile-nav-list-icons">
@@ -183,7 +198,7 @@
           </h2>
         </div>
         <div class="about-left">
-          <h3 class="about-left_title">Contact</h3>
+          <h3 class="about-left_title" data-translate="contact">Contact</h3>
           <ul class="about-left_list about-left_list-contact">
             <li class="about-left_list-element">
               <a
@@ -210,21 +225,33 @@
             </li>
           </ul>
 
-          <h3 class="about-left_title">Education</h3>
+          <h3 class="about-left_title" data-translate="education">Education</h3>
           <ul class="about-left_list about-left_list-education">
             <li class="about-left_list-element">
-              Bachelor of English Philology <br />
-              Wyższa Szkoła Filologiczna in Wrocław <br />
+              <span data-translate="education1Span1">
+                Bachelor of English Philology
+              </span>
+              <br />
+              <span data-translate="education1Span2">
+                Wyższa Szkoła Filologiczna in Wrocław
+              </span>
+              <br />
               2017-2020
             </li>
             <li class="about-left_list-element">
-              Master of English Philology <br />
-              University of Szczecin <br />
-              2021-Present
+              <span data-translate="education2Span1">
+                Master of English Philology
+              </span>
+              <br />
+              <span data-translate="education2Span2">
+                University of Szczecin
+              </span>
+              <br />
+              2021
             </li>
           </ul>
 
-          <h3 class="about-left_title">Skills</h3>
+          <h3 class="about-left_title" data-translate="skills">Skills</h3>
           <ul class="about-left_list about-left_list-skills">
             <li class="about-left_list-element">
               HTML
@@ -260,14 +287,6 @@
               <span class="fa fa-star star-checked"></span>
             </li>
             <li class="about-left_list-element">
-              Tailwind
-              <span class="fa fa-star star-checked"></span>
-              <span class="fa fa-star star-checked"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-              <span class="fa fa-star"></span>
-            </li>
-            <li class="about-left_list-element">
               GitHub
               <span class="fa fa-star star-checked"></span>
               <span class="fa fa-star star-checked"></span>
@@ -275,10 +294,20 @@
               <span class="fa fa-star star-checked"></span>
               <span class="fa fa-star star-checked"></span>
             </li>
+
             <li class="about-left_list-element">
-              C++
+              Node.js
+              <span class="fa fa-star star-checked"></span>
+              <span class="fa fa-star star-checked"></span>
               <span class="fa fa-star star-checked"></span>
               <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </li>
+
+            <li class="about-left_list-element">
+              Tailwind
+              <span class="fa fa-star star-checked"></span>
+              <span class="fa fa-star star-checked"></span>
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
               <span class="fa fa-star"></span>
@@ -313,51 +342,64 @@
           </ul>
         </div>
         <div class="about-right">
-          <h2 class="about-right_title">Career Objective</h2>
-          <p class="about-right_p">
+          <h2 class="about-right_title" data-translate="careerObjectiveH">
+            Career Objective
+          </h2>
+          <p class="about-right_p" data-translate="careerObjective">
             I am passionately pursuing a career in the IT industry after
             discovering my love for programming in September 2022. Since then, I
             have dedicated myself to learning various programming languages and
-            tools. I'm participant of the "Fullstack Frontend Developer" course
-            by GOIT. I have acquired proficiency in HTML, CSS, SASS (SCSS), and
-            I am currently deepening my knowledge of JavaScript. In addition to
-            programming languages, I have also familiarized myself with
-            essential technologies and tools related to frontend development. I
-            have gained experience in using platforms such as Github, Figma,
-            Squoosh, IcoMoon, SVGOMG, and much more. My journey into the IT
-            field has been an exciting and enriching experience, and I am eager
-            to continue expanding my skills and knowledge in programming and
-            frontend development.
+            tools. I am participant of the "Fullstack Frontend Developer" course
+            by GOIT. I have acquired proficiency in HTML, CSS, SASS (SCSS),
+            JavaScript and I am currently deepening my knowledge of NodeJS and
+            React. In addition to programming languages, I have also
+            familiarized myself with essential technologies and tools related to
+            frontend development. I have gained experience in using platforms
+            such as Github, Figma, Squoosh, IcoMoon, SVGOMG, and much more. My
+            journey into the IT field has been an exciting and enriching
+            experience, and I am eager to continue expanding my skills and
+            knowledge in programming and frontend development.
           </p>
 
           <ul class="about-right_work-list">
-            <li><h2 class="about-right_title">Work Experience</h2></li>
             <li>
-              <h3 class="about-right-exp">
-                Teacher of English in Primary School
+              <h2 class="about-right_title" data-translate="workExp">
+                Work Experience
+              </h2>
+            </li>
+            <li>
+              <h3 class="about-right-exp" data-translate="workExpE1">
+                English teacher in primary school - 2022-2023
               </h3>
               <p class="about-right_p">
-                Publiczna Szkoła Podstawowa w Tomaszowie <br />
-                in years 2022-2023
+                Publiczna Szkoła Podstawowa w Tomaszowie
               </p>
             </li>
 
             <li>
-              <h3 class="about-right-exp">
-                Teacher of English in Primary School
+              <h3 class="about-right-exp" data-translate="workExpE2">
+                English teacher at the private kindergarten "Stacyjkowo" in
+                Żagań - 2021-2023
               </h3>
               <p class="about-right_p">
-                Publiczna Szkoła Podstawowa nr 3 w Żaganiu <br />
-                in years 2021-2022
+                STACYJKOWO Niepubliczne Przedszkole i Żłobek Opieka nad dziećmi
               </p>
             </li>
 
             <li>
-              <h3 class="about-right-exp">Assistant of designer</h3>
+              <h3 class="about-right-exp" data-translate="workExpE3">
+                English teacher in Primary School - 2021-2022
+              </h3>
               <p class="about-right_p">
-                Homebook<br />
-                in years 2017-2020 <br />
+                Publiczna Szkoła Podstawowa nr 3 w Żaganiu.
               </p>
+            </li>
+
+            <li>
+              <h3 class="about-right-exp" data-translate="workExpE4">
+                Assistant of designer - 2017-2020
+              </h3>
+              <p class="about-right_p">Homebook</p>
             </li>
           </ul>
         </div>
@@ -367,15 +409,19 @@
     <footer class="footer footer-about">
       <div class="section section-footer">
         <ul class="footer-list">
-          <li class="footer-list_element"><a href="./index.html">Home</a></li>
           <li class="footer-list_element">
-            <a class="menu-active" href="./about.html">About</a>
+            <a href="./index.html" data-translate="home">Home</a>
           </li>
           <li class="footer-list_element">
-            <a href="./projects.html">Projects</a>
+            <a class="menu-active" href="./about.html" data-translate="about"
+              >About</a
+            >
           </li>
           <li class="footer-list_element">
-            <a href="./contact.html">Contact</a>
+            <a href="./projects.html" data-translate="projects">Projects</a>
+          </li>
+          <li class="footer-list_element">
+            <a href="./contact.html" data-translate="contact">Contact</a>
           </li>
           <li class="footer-list_element-icon">
             <a
@@ -431,5 +477,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/mobile-menu.js"></script>
+    <script src="./js/lagnuage-selector.js"></script>
   </body>
 </html>

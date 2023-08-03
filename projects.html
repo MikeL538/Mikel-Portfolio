@@ -30,14 +30,21 @@
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-list_element">
-              <a href="./index.html">Home</a>
-            </li>
-            <li class="nav-list_element"><a href="./about.html">About</a></li>
-            <li class="nav-list_element">
-              <a class="menu-active" href="./projects.html">Projects</a>
+              <a href="./index.html" data-translate="home">Home</a>
             </li>
             <li class="nav-list_element">
-              <a href="./contact.html">Contact</a>
+              <a href="./about.html" data-translate="about">About</a>
+            </li>
+            <li class="nav-list_element">
+              <a
+                class="menu-active"
+                href="./projects.html"
+                data-translate="projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-list_element">
+              <a href="./contact.html" data-translate="contact">Contact</a>
             </li>
             <li class="nav-list_element-icon">
               <a
@@ -84,6 +91,15 @@
               </a>
             </li>
 
+            <li class="nav-list_element-language">
+              <button id="en-language">
+                <img src="./images/uk.jpg" />
+              </button>
+              <button id="pl-language">
+                <img src="./images/pl.jpg" />
+              </button>
+            </li>
+
             <!-- Mobile Menu Button -->
             <li class="nav-list_element-icon-burger">
               <button class="nav-list_element-icon-button">
@@ -106,16 +122,21 @@
         <nav class="mobile-nav">
           <ul class="mobile-nav-list">
             <li class="mobile-nav-list_element">
-              <a href="./index.html">Home</a>
+              <a href="./index.html" data-translate="home">Home</a>
             </li>
             <li class="mobile-nav-list_element">
-              <a href="./about.html">About</a>
+              <a href="./about.html" data-translate="about">About</a>
             </li>
             <li class="mobile-nav-list_element">
-              <a class="menu-active" href="./projects.html">Projects</a>
+              <a
+                class="menu-active"
+                href="./projects.html"
+                data-translate="projects"
+                >Projects</a
+              >
             </li>
             <li class="mobile-nav-list_element">
-              <a href="./contact.html">Contact</a>
+              <a href="./contact.html" data-translate="contact">Contact</a>
             </li>
           </ul>
           <ul class="mobile-nav-list-icons">
@@ -170,7 +191,9 @@
 
     <main>
       <section class="section project-section">
-        <h2 class="project_title">Finished Projects</h2>
+        <h2 class="project_title" data-translate="finishedProjects">
+          Finished Projects
+        </h2>
         <ul class="project_list">
           <li class="project_list-element">
             <div class="project_list-box">
@@ -184,12 +207,14 @@
                 <div>
                   <h3 class="project_list-title">Webstudio</h3>
                   <figcaption class="project_list-desc">
-                    This website represents a fictional company and holds great
-                    significance for me. It marks a significant milestone as it
-                    is my first independent project, without relying on Youtube
-                    tutorials or other step-by-step resources. I successfully
-                    completed this project during my Fullstack Frontend
-                    Developer course at GOIT.
+                    <span data-translate="project1">
+                      This website represents a fictional company and holds
+                      great significance for me. It marks a significant
+                      milestone as it is my first independent project, without
+                      relying on Youtube tutorials or other step-by-step
+                      resources. I successfully completed this project during my
+                      Fullstack Frontend Developer course at GOIT.
+                    </span>
                     <br />
                     <br />
                     <h4 class="project_list-h4">GitHub Page</h4>
@@ -223,10 +248,12 @@
                 <div>
                   <h3 class="project_list-title">JavaScript GOIT Exercises</h3>
                   <figcaption class="project_list-desc">
-                    This is a pack of tasks showcasing my skills in JavaScript
-                    programming. These tasks were originally prepared by GOIT
-                    for their course, which I have successfully completed and
-                    then improved upon in this project.
+                    <span data-translate="project2">
+                      This is a pack of tasks showcasing my skills in JavaScript
+                      programming. These tasks were originally prepared by GOIT
+                      for their course, which I have successfully completed and
+                      then improved upon in this project.
+                    </span>
                     <br />
                     <br />
                     <h4 class="project_list-h4">Github Page</h4>
@@ -260,11 +287,14 @@
                 <div>
                   <h3 class="project_list-title">Anemone</h3>
                   <figcaption class="project_list-desc">
-                    This website showcases a fictional florist named "Anemone."
-                    Originally a team project by GOIT, we successfully completed
-                    it together. However, I wanted to further enhance my skills,
-                    so I took the initiative to work on this project
-                    independently as well, in addition to the teamwork aspect.
+                    <span data-translate="project3">
+                      This website showcases a fictional florist named
+                      "Anemone." Originally a team project by GOIT, we
+                      successfully completed it together. However, I wanted to
+                      further enhance my skills, so I took the initiative to
+                      work on this project independently as well, in addition to
+                      the teamwork aspect.
+                    </span>
                     <br />
                     <br />
                     <h4 class="project_list-h4">GitHub Page</h4>
@@ -312,10 +342,13 @@
                 <div>
                   <h3 class="project_list-title">Treine</h3>
                   <figcaption class="project_list-desc">
-                    This website is dedicated to a fictional fitness company
-                    that caught my attention on Figma. I made some tweaks to the
-                    original design and introduced a modal window feature. Below
-                    the button, you'll find a link to the original Figma design.
+                    <span data-translate="project4">
+                      This website is dedicated to a fictional fitness company
+                      that caught my attention on Figma. I made some tweaks to
+                      the original design and introduced a modal window feature.
+                      Below the button, you'll find a link to the original Figma
+                      design.</span
+                    >
                     <br />
                     <br />
                     <h4 class="project_list-h4">GitHub Page</h4>
@@ -349,11 +382,13 @@
                 <div>
                   <h3 class="project_list-title">Flipping Card</h3>
                   <figcaption class="project_list-desc">
-                    After watching a video on YouTube showcasing a two-sided
-                    portfolio, I was inspired to create my own version using a
-                    credit card design. I implemented a click event that
-                    triggers a flip effect, resulting in an interactive
-                    experience where the bank card flips.
+                    <span data-translate="project5">
+                      After watching a video on YouTube showcasing a two-sided
+                      portfolio, I was inspired to create my own version using a
+                      credit card design. I implemented a click event that
+                      triggers a flip effect, resulting in an interactive
+                      experience where the bank card flips.
+                    </span>
                     <br />
                     <br />
                     <h4 class="project_list-h4">GitHub Page</h4>
@@ -378,7 +413,9 @@
         </ul>
 
         <!-- In progress -->
-        <h2 class="project_title">Projects in progress</h2>
+        <h2 class="project_title" data-translate="projectsInProgress">
+          Projects in progress
+        </h2>
         <ul class="project_list">
           <li
             class="project_list-element"
@@ -422,16 +459,21 @@
       <div class="section section-footer">
         <ul class="footer-list">
           <li class="footer-list_element">
-            <a href="./index.html">Home</a>
+            <a href="./index.html" data-translate="home">Home</a>
           </li>
           <li class="footer-list_element">
-            <a href="./about.html">About</a>
+            <a href="./about.html" data-translate="about">About</a>
           </li>
           <li class="footer-list_element">
-            <a class="menu-active" href="./projects.html">Projects</a>
+            <a
+              class="menu-active"
+              href="./projects.html"
+              data-translate="projects"
+              >Projects</a
+            >
           </li>
           <li class="footer-list_element">
-            <a href="./contact.html">Contact</a>
+            <a href="./contact.html" data-translate="contact">Contact</a>
           </li>
           <li class="footer-list_element-icon">
             <a
@@ -488,5 +530,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/mobile-menu.js"></script>
+    <script src="./js/lagnuage-selector.js"></script>
   </body>
 </html>

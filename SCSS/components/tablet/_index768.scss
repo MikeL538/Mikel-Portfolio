@@ -17,10 +17,14 @@
     align-items: center;
     justify-content: center;
 
+    &_figure {
+      width: 370px;
+    }
+
     &_image {
       height: 220px;
       margin-bottom: 12px;
-      width: 340px;
+      width: 370px;
     }
 
     &_list {
