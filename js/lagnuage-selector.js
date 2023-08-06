@@ -60,20 +60,22 @@ const translations = {
     projectDesc3:
       'Ta strona internetowa prezentuje fikcyjną kwiaciarnię o nazwie "Anemone". Początkowo był to projekt zespołowy w ramach GOIT, który ukończyliśmy razem z sukcesem. Jednak chciałem dalej rozwijać swoje umiejętności, dlatego postanowiłem również samodzielnie stworzyć ten projekt.',
     education: "Edukacja",
-    education1Span1: "Licencja filologii angielskiej",
+    education1Span1: "Licencjat filologii angielskiej",
     education1Span2: "Wyższa Szkoła Filologiczna we Wrocławiu",
     education2Span1: "Magister filologii angielskiej",
     education2Span2: "Uniwersytet Szczeciński",
     skills: "Umiejętności",
     careerObjectiveH: "Cele Zawodowe",
     careerObjective:
-      'Z pasją dążę do kariery w branży IT po odkryciu mojej miłości do programowania we wrześniu 2022 roku. Od tego czasu poświęciłem się nauce różnych języków programowania i narzędzi. Jestem uczestnikiem kursu "Fullstack Frontend Developer" organizowanego przez GOIT. Zdobyłem biegłość w HTML, CSS, SASS (SCSS), JavaScript oraz obecnie pogłębiam swoją wiedzę z zakresu NodeJS i React. Oprócz języków programowania, zaznajomiłem się także z niezbędnymi technologiami i narzędziami związanymi z rozwojem frontendu. Posiadam doświadczenie w korzystaniu z platform takich jak Github, Figma, Squoosh, IcoMoon, SVGOMG i wiele innych. Moja przygoda z branżą IT była ekscytującym i wzbogacającym doświadczeniem, i z niecierpliwością kontynuuję rozwijanie swoich umiejętności i wiedzy w programowaniu i rozwoju frontendu.',
+      'Z pasją dążę do kariery w branży IT po odkryciu mojej miłości do programowania we wrześniu 2022 roku. Od tego czasu poświęciłem się nauce różnych języków programowania i narzędzi. Jestem uczestnikiem kursu "Fullstack Frontend Developer" organizowanego przez GOIT. Zdobyłem biegłość w HTML, CSS, SASS (SCSS), JavaScript oraz obecnie pogłębiam swoją wiedzę z zakresu NodeJS i React. Oprócz języków programowania, zaznajomiłem się także z niezbędnymi technologiami i narzędziami związanymi z rozwojem frontendu. Posiadam doświadczenie w korzystaniu z platform takich jak Github, Figma, Squoosh, IcoMoon, SVGOMG i wiele innych. Moja przygoda z branżą IT była ekscytującym i wzbogacającym doświadczeniem, i z pasją kontynuuję rozwijanie swoich umiejętności i wiedzy w programowaniu i rozwoju zdolności frontendowych.',
     workExp: "Doświadczenie Zawodowe",
-    workExpE1: "Nauczyciel angielskiego w szkole podstawowej - 2022-2023",
+    workExpE1:
+      "Nauczyciel języka angielskiego w szkole podstawowej (2022-2023)",
     workExpE2:
-      'Nauczyciel angielskiego w prywatnym przeszkolu "Stacyjkowo" - 2021-2023',
-    workExpE3: "Nauczyciel angielskiego w szkole podstawowej - 2021-2022",
-    workExpE4: "Asystant designera - 2017-2020",
+      'Nauczyciel języka angielskiego w prywatnym przeszkolu "Stacyjkowo" (2021-2023)',
+    workExpE3:
+      "Nauczyciel języka angielskiego w szkole podstawowej (2021-2022)",
+    workExpE4: "Asystant designera (2017-2020)",
     finishedProjects: "Ukończone Projekty",
     project1:
       "Ta strona internetowa przedstawia fikcyjną firmę i ma dla mnie ogromne znaczenie. To ważny kamień milowy, ponieważ jest to mój pierwszy samodzielny projekt, bez korzystania z poradników na YouTube ani innych krok po kroku materiałów. Pomyślnie ukończyłem ten projekt podczas kursu Fullstack Frontend Developer w GOIT.",
