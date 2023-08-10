@@ -42,6 +42,7 @@ const translations = {
     project5:
       "After watching a video on YouTube showcasing a two-sided portfolio, I was inspired to create my own version using a credit card design. I implemented a click event that triggers a flip effect, resulting in an interactive experience where the bank card flips.",
     projectsInProgress: "Projects in progress",
+    projectInProgressDesc: "A simple ships game.",
   },
   pl: {
     home: "Strona główna",
@@ -88,6 +89,7 @@ const translations = {
     project5:
       "Po obejrzeniu filmu na YouTube, w którym przedstawiono dwustronne portfolio, zainspirowałem się do stworzenia swojej własnej wersji wykorzystującej projekt karty kredytowej. Wprowadziłem zdarzenie kliknięcia, które wywołuje efekt odwracania, co daje interaktywne doświadczenie, gdzie karta bankowa się obraca.",
     projectsInProgress: "Projekty w trakcie realizacji",
+    projectInProgressDesc: "Prosta gra w statki.",
   },
 };
 
