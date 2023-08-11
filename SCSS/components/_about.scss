@@ -21,6 +21,7 @@
   letter-spacing: 0.06em;
   line-height: 1.2;
   padding: 12px 0;
+  position: relative;
   width: 100%;
 
   &_title {
@@ -29,6 +30,13 @@
     > span {
       font-style: italic;
     }
+  }
+
+  &_cv-link {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 13px;
   }
 }
 

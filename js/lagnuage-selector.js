@@ -25,11 +25,11 @@ const translations = {
     careerObjective:
       'I am passionately pursuing a career in the IT industry after discovering my love for programming in September 2022. Since then, I have dedicated myself to learning various programming languages and tools. I am participant of the "Fullstack Frontend Developer" course by GOIT. I have acquired proficiency in HTML, CSS, SASS (SCSS), JavaScript and I am currently deepening my knowledge of NodeJS and React. In addition to programming languages, I have also familiarized myself with essential technologies and tools related to frontend development. I have gained experience in using platforms and tools such as Parcel, Github, Figma, Squoosh, IcoMoon, SVGOMG, and much more. My journey into the IT field has been an exciting and enriching experience, and I am eager to continue expanding my skills and knowledge in programming and frontend development.',
     workExp: "Work Experience",
-    workExpE1: "English teacher in primary school - 2022-2023",
+    workExpE1: "English teacher in primary school (2022-2023)",
     workExpE2:
-      'English teacher at the private kindergarten "Stacyjkowo" in Żagań - 2021-2023',
-    workExpE3: "English teacher in primary school - 2021-2022",
-    workExpE4: "Assistant of designer - 2017-2020",
+      'English teacher at the private kindergarten "Stacyjkowo" in Żagań (2021-2023)',
+    workExpE3: "English teacher in primary school (2021-2022)",
+    workExpE4: "Assistant of designer (2017-2020)",
     finishedProjects: "Finished Projects",
     project1:
       "This website represents a fictional company and holds great significance for me. It marks a significant milestone as it is my first independent project, without relying on Youtube tutorials or other step-by-step resources. I successfully completed this project during my Fullstack Frontend Developer course at GOIT.",
