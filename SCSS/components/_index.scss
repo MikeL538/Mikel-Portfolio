@@ -74,7 +74,8 @@
   }
 
   &_figure {
-    width: 440px;
+    max-width: 440px;
+    width: 100%;
   }
 
   &_image {
@@ -82,7 +83,7 @@
     height: 300px;
     margin: 10px 0 20px 0;
     max-width: 440px;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
   }
 
