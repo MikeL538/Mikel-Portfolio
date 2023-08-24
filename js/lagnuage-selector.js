@@ -20,10 +20,11 @@ const translations = {
     education1Span2: "Wyższa Szkoła Filologiczna in Wrocław",
     education2Span1: "Master of English Philology",
     education2Span2: "University of Szczecin",
+
     skills: "Skills",
     careerObjectiveH: "Career Objective",
     careerObjective:
-      'I am passionately pursuing a career in the IT industry after discovering my love for programming in September 2022. Since then, I have dedicated myself to learning various programming languages and tools. I am participant of the "Fullstack Frontend Developer" course by GOIT. I have acquired proficiency in HTML, CSS, SASS (SCSS), JavaScript and I am currently deepening my knowledge of NodeJS and React. In addition to programming languages, I have also familiarized myself with essential technologies and tools related to frontend development. I have gained experience in using platforms and tools such as Parcel, Github, Figma, Squoosh, IcoMoon, SVGOMG, and much more. My journey into the IT field has been an exciting and enriching experience, and I am eager to continue expanding my skills and knowledge in programming and frontend development.',
+      'I am passionately pursuing a career in the IT industry after discovering my love for programming in September 2022. Since then, I have dedicated myself to learning various programming languages and tools. I am participant of the "Fullstack Frontend Developer" course by GOIT. I have acquired proficiency in HTML, CSS, SASS (SCSS), JavaScript and I am currently deepening my knowledge of NodeJS and React. In addition to programming languages, I have also familiarized myself with essential technologies and tools related to frontend development. I have gained experience in using platforms and tools such as Parcel, Github, Chat GPT, Figma, Squoosh, IcoMoon, SVGOMG, and much more. My journey into the IT field has been an exciting and enriching experience, and I am eager to continue expanding my skills and knowledge in programming and frontend development.',
     workExp: "Work Experience",
     workExpE1: "English teacher in primary school (2022-2023)",
     workExpE2:
@@ -42,7 +43,8 @@ const translations = {
     project5:
       "After watching a video on YouTube showcasing a two-sided portfolio, I was inspired to create my own version using a credit card design. I implemented a click event that triggers a flip effect, resulting in an interactive experience where the bank card flips.",
     projectsInProgress: "Projects in progress",
-    projectInProgressDesc: "A simple ships game.",
+    projectInProgressDesc:
+      "Battleships game with local storage of options, sounds and themes.",
   },
   pl: {
     home: "Strona główna",
@@ -68,7 +70,7 @@ const translations = {
     skills: "Umiejętności",
     careerObjectiveH: "Cele Zawodowe",
     careerObjective:
-      'Z pasją dążę do kariery w branży IT po odkryciu mojej miłości do programowania we wrześniu 2022 roku. Od tego czasu poświęciłem się nauce różnych języków programowania i narzędzi. Jestem uczestnikiem kursu "Fullstack Frontend Developer" organizowanego przez GOIT. Zdobyłem biegłość w HTML, CSS, SASS (SCSS), JavaScript oraz obecnie pogłębiam swoją wiedzę z zakresu NodeJS i React. Oprócz języków programowania, zaznajomiłem się także z niezbędnymi technologiami i narzędziami związanymi z rozwojem frontendu. Posiadam doświadczenie w korzystaniu z platform i narzędzi takich jak Parcel, Github, Figma, Squoosh, IcoMoon, SVGOMG i wiele innych. Moja przygoda z branżą IT była ekscytującym i wzbogacającym doświadczeniem, i z pasją kontynuuję rozwijanie swoich umiejętności i wiedzy w programowaniu i rozwoju zdolności frontendowych.',
+      'Z pasją dążę do kariery w branży IT po odkryciu mojej miłości do programowania we wrześniu 2022 roku. Od tego czasu poświęciłem się nauce różnych języków programowania i narzędzi. Jestem uczestnikiem kursu "Fullstack Frontend Developer" organizowanego przez GOIT. Zdobyłem biegłość w HTML, CSS, SASS (SCSS), JavaScript oraz obecnie pogłębiam swoją wiedzę z zakresu NodeJS i React. Oprócz języków programowania, zaznajomiłem się także z niezbędnymi technologiami i narzędziami związanymi z rozwojem frontendu. Posiadam doświadczenie w korzystaniu z platform i narzędzi takich jak Parcel, Github, Chat GPT, Figma, Squoosh, IcoMoon, SVGOMG i wiele innych. Moja przygoda z branżą IT była ekscytującym i wzbogacającym doświadczeniem, i z pasją kontynuuję rozwijanie swoich umiejętności i wiedzy w programowaniu i rozwoju zdolności frontendowych.',
     workExp: "Doświadczenie Zawodowe",
     workExpE1:
       "Nauczyciel języka angielskiego w szkole podstawowej (2022-2023)",
@@ -89,7 +91,8 @@ const translations = {
     project5:
       "Po obejrzeniu filmu na YouTube, w którym przedstawiono dwustronne portfolio, zainspirowałem się do stworzenia swojej własnej wersji wykorzystującej projekt karty kredytowej. Wprowadziłem zdarzenie kliknięcia, które wywołuje efekt odwracania, co daje interaktywne doświadczenie, gdzie karta bankowa się obraca.",
     projectsInProgress: "Projekty w trakcie realizacji",
-    projectInProgressDesc: "Prosta gra w statki.",
+    projectInProgressDesc:
+      "Gra w statki, która zawiera lokalnie zapamiętywane ustawień dźwięków czy motywów.",
   },
 };
 
