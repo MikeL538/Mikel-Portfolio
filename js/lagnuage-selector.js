@@ -14,7 +14,7 @@ const translations = {
     projectDesc2:
       "The pack of tasks showcasing my skills in JavaScript programming. These tasks were originally prepared by GOIT for their course, which I have successfully completed and then improved upon in this project.",
     projectDesc3:
-      'This website showcases a fictional florist named "Anemone." Originally a team project by GOIT, we successfully completed it together. However, I wanted to further enhance my skills, so I took the initiative to work on this project independently as well, in addition to the teamwork aspect.',
+      "In this exciting challenge, you'll encounter four different types of ships: Four single-cell ships. Three two-cell ships. Two three-cell ships. One formidable four-cell ship. Your mission is to strategically sink all of these ships. The game has 3 game modes with separated local ranking.",
     education: "Education",
     education1Span1: "Bachelor of English Philology",
     education1Span2: "Wyższa Szkoła Filologiczna in Wrocław",
@@ -32,6 +32,8 @@ const translations = {
     workExpE3: "English teacher in primary school (2021-2022)",
     workExpE4: "Assistant of designer (2017-2020)",
     finishedProjects: "Finished Projects",
+    project0:
+      "In this exciting challenge, you'll encounter four different types of ships: Four single-cell ships. Three two-cell ships. Two three-cell ships. One formidable four-cell ship. Your mission is to strategically sink all of these ships. The game has 3 game modes with separated local ranking.",
     project1:
       "This website represents a fictional company and holds great significance for me. It marks a significant milestone as it is my first independent project, without relying on Youtube tutorials or other step-by-step resources. I successfully completed this project during my Fullstack Frontend Developer course at GOIT.",
     project2:
@@ -61,7 +63,7 @@ const translations = {
     projectDesc2:
       "Jest to zestaw zadań prezentujących moje umiejętności programowania w języku JavaScript. Te zadania zostały pierwotnie przygotowane przez GOIT na potrzeby ich kursu, który ukończyłem z sukcesem, a następnie ulepszyłem w ramach tego projektu.",
     projectDesc3:
-      'Ta strona internetowa prezentuje fikcyjną kwiaciarnię o nazwie "Anemone". Początkowo był to projekt zespołowy w ramach GOIT, który ukończyliśmy razem z sukcesem. Jednak chciałem dalej rozwijać swoje umiejętności, dlatego postanowiłem również samodzielnie stworzyć ten projekt.',
+      "W tym ekscytującym wyzwaniu spotkasz cztery różne typy statków: cztery jednokomórkowe statki. Trzy dwukomórkowe statki. Dwa trzykomórkowe statki. Jeden potężny czterokomórkowy statek. Twoim zadaniem jest strategiczne zatopienie wszystkich tych statków. Gra posiada 3 poziomy trudności do wyboru oraz rozdzielony lokalny ranking.",
     education: "Edukacja",
     education1Span1: "Licencjat filologii angielskiej",
     education1Span2: "Wyższa Szkoła Filologiczna we Wrocławiu",
@@ -80,6 +82,8 @@ const translations = {
       "Nauczyciel języka angielskiego w szkole podstawowej (2021-2022)",
     workExpE4: "Asystant designera (2017-2020)",
     finishedProjects: "Ukończone Projekty",
+    project0:
+      "W tym ekscytującym wyzwaniu spotkasz cztery różne typy statków: cztery jednokomórkowe statki. Trzy dwukomórkowe statki. Dwa trzykomórkowe statki. Jeden potężny czterokomórkowy statek. Twoim zadaniem jest strategiczne zatopienie wszystkich tych statków. Gra posiada 3 poziomy trudności do wyboru oraz rozdzielony lokalny ranking.",
     project1:
       "Ta strona internetowa przedstawia fikcyjną firmę i ma dla mnie ogromne znaczenie. To ważny kamień milowy, ponieważ jest to mój pierwszy samodzielny projekt, bez korzystania z poradników na YouTube ani innych krok po kroku materiałów. Pomyślnie ukończyłem ten projekt podczas kursu Fullstack Frontend Developer w GOIT.",
     project2:
