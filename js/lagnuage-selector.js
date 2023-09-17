@@ -22,9 +22,12 @@ const translations = {
     education2Span2: "University of Szczecin",
 
     skills: "Skills",
+    aboutMeH: "About Me",
+    aboutMe:
+      "I am easy-going, well-organized, and determined individual with a strong passion for programming and bodybuilding. With a background in education, I excel in communication, problem-solving, and effective planning. Having worked remotely as a website editor for 2 years, I've honed my ability to manage and plan my own work-time efficiently. Throughout my learning journey, I've successfully completed seven projects and continue to delve deeper into programming, constantly working on new and exciting ventures.",
     careerObjectiveH: "Career Objective",
     careerObjective:
-      'I am passionately pursuing a career in the IT industry after discovering my love for programming in September 2022. Since then, I have dedicated myself to learning various programming languages and tools. I am participant of the "Fullstack Frontend Developer" course by GOIT. I have acquired proficiency in HTML, CSS, SASS (SCSS), JavaScript and I am currently deepening my knowledge of NodeJS and React. In addition to programming languages, I have also familiarized myself with essential technologies and tools related to frontend development. I have gained experience in using platforms and tools such as Parcel, Github, Chat GPT, Figma, Squoosh, IcoMoon, SVGOMG, and much more. My journey into the IT field has been an exciting and enriching experience, and I am eager to continue expanding my skills and knowledge in programming and frontend development.',
+      "In September 2022, I found my passion for programming, sparking my journey into the IT industry. Currently enrolled in GOIT's 'Fullstack Frontend Developer' course, I've gained proficiency in HTML, CSS, SASS, and JavaScript. I'm actively deepening my knowledge of NodeJS and React. Alongside, I've familiarized myself with vital frontend development tools like Github, Figma, ChatGPT and much more. Eager to keep expanding my programming and frontend development skills.",
     workExp: "Work Experience",
     workExpE1: "English teacher in primary school (2022-2023)",
     workExpE2:
@@ -70,9 +73,12 @@ const translations = {
     education2Span1: "Magister filologii angielskiej",
     education2Span2: "Uniwersytet Szczeciński",
     skills: "Umiejętności",
+    aboutMeH: "O mnie",
+    aboutMe:
+      "Jestem spokojnym, zorganizowanym i zdeterminowanym osobnikiem o silnej pasji do programowania i kulturystyki. Posiadając doświadczenie w edukacji, wyróżniam się umiejętnościami komunikacji, rozwiązywania problemów oraz efektywnego planowania. Pracując zdalnie jako edytor stron internetowych przez 2 lata, doskonaliłem umiejętność samodzielnego zarządzania czasem pracy. W trakcie mojej ścieżki edukacyjnej pomyślnie zrealizowałem siedem projektów i ciągle zgłębiam tajniki programowania, nieustannie pracując nad nowymi, ekscytującymi przedsięwzięciami.",
     careerObjectiveH: "Cele Zawodowe",
     careerObjective:
-      'Z pasją dążę do kariery w branży IT po odkryciu mojej miłości do programowania we wrześniu 2022 roku. Od tego czasu poświęciłem się nauce różnych języków programowania i narzędzi. Jestem uczestnikiem kursu "Fullstack Frontend Developer" organizowanego przez GOIT. Zdobyłem biegłość w HTML, CSS, SASS (SCSS), JavaScript oraz obecnie pogłębiam swoją wiedzę z zakresu NodeJS i React. Oprócz języków programowania, zaznajomiłem się także z niezbędnymi technologiami i narzędziami związanymi z rozwojem frontendu. Posiadam doświadczenie w korzystaniu z platform i narzędzi takich jak Parcel, Github, Chat GPT, Figma, Squoosh, IcoMoon, SVGOMG i wiele innych. Moja przygoda z branżą IT była ekscytującym i wzbogacającym doświadczeniem, i z pasją kontynuuję rozwijanie swoich umiejętności i wiedzy w programowaniu i rozwoju zdolności frontendowych.',
+      "We wrześniu 2022 roku odnalazłem swoją pasję do programowania, co zapoczątkowało moją przygodę w branży IT. Obecnie uczestniczę w kursie 'Fullstack Frontend Developer' organizowanym przez GOIT, zdobywając biegłość w HTML, CSS, SASS i JavaScript. Aktywnie poszerzam swoją wiedzę z zakresu NodeJS i React. Dodatkowo zapoznałem się z kluczowymi narzędziami do frontendowego rozwoju, takimi jak Github, Figma, ChatGPT i wiele innych. Z niecierpliwością kontynuuję rozwój moich umiejętności w programowaniu i rozwoju frontendu.",
     workExp: "Doświadczenie Zawodowe",
     workExpE1:
       "Nauczyciel języka angielskiego w szkole podstawowej (2022-2023)",
