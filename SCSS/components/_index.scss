@@ -176,57 +176,5 @@
     size: 800% 800%;
   }
   border-top: 2px solid color("line");
-  height: 110px;
-}
-
-.section-footer {
-  display: flex;
-  height: 110px;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-}
-
-.footer-list {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  margin-right: 100px;
-
-  &_element {
-    margin-right: 40px;
-
-    > a {
-      color: color("text");
-      font-size: 22px;
-      text-decoration: none;
-      &:hover,
-      &:focus {
-        color: color("interact");
-      }
-    }
-
-    &-icon {
-      margin-left: 32px;
-
-      &:hover {
-        transform: scale(1.3);
-      }
-
-      &-link {
-        border-radius: 50%;
-        display: block;
-        padding: 10px;
-
-        &:focus svg {
-          transform: scale(1.3);
-        }
-
-        > svg {
-          height: 40px;
-          width: 40px;
-        }
-      }
-    }
-  }
+  height: 60px;
 }

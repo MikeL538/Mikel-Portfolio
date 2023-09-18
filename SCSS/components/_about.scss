@@ -1,5 +1,13 @@
 @import "../utils/vars";
 
+.about-container {
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  min-height: 100svh;
+  justify-content: center;
+}
+
 .section-about {
   align-items: center;
   border-radius: 32px;
@@ -33,10 +41,10 @@
   }
 
   &_cv-link {
-    position: absolute;
     bottom: 5px;
-    right: 5px;
     font-size: 13px;
+    position: absolute;
+    right: 5px;
   }
 }
 
