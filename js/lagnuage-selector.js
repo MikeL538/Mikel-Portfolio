@@ -10,7 +10,7 @@ const translations = {
     technologiesWorked: "Technologies I've worked with",
     recentProjects: "Recent projects",
     projectDesc1:
-      "This website is a representation of a fictional company. It marks a significant milestone for me as it is the first project I have developed independently, without relying on Youtube tutorials or other step-by-step materials. This project was completed as part of my Fullstack Frontend Developer course organized by GOIT.",
+      "This website is a representation of a fictional company. It marks a significant milestone for me as it is the first project I have developed independently, without relying on Youtube tutorials or other step-by-step materials. This project was completed as part of my Full Stack Developer course organized by GOIT.",
     projectDesc2:
       "The pack of tasks showcasing my skills in JavaScript programming. These tasks were originally prepared by GOIT for their course, which I have successfully completed and then improved upon in this project.",
     projectDesc3:
@@ -26,8 +26,7 @@ const translations = {
     aboutMe:
       "I am easy-going, well-organized, and determined individual with a strong passion for programming and bodybuilding. With a background in education, I excel in communication, problem-solving, and effective planning. Having worked remotely as a website editor for 2 years, I've honed my ability to manage and plan my own work-time efficiently. Throughout my learning journey, I've successfully completed seven projects and continue to delve deeper into programming, constantly working on new and exciting ventures.",
     careerObjectiveH: "Career Objective",
-    careerObjective:
-      "In September 2022, I found my passion for programming, sparking my journey into the IT industry. Currently enrolled in GOIT's 'Fullstack Frontend Developer' course, I've gained proficiency in HTML, CSS, SASS, and JavaScript. I'm actively deepening my knowledge of NodeJS and React. Alongside, I've familiarized myself with vital frontend development tools like Github, Figma, ChatGPT and much more. Eager to keep expanding my programming and frontend development skills.",
+    careerObjective: `In September 2022, I found my passion for programming, sparking my journey into the IT industry. Currently enrolled in GOIT's "Full Stack Developer" course, I've gained proficiency in HTML, CSS, SASS, and JavaScript. I'm actively deepening my knowledge of NodeJS and React. Alongside, I've familiarized myself with vital fullstack development tools like Github, Figma, ChatGPT and much more. Eager to keep expanding my programming and fullstack development skills.`,
     workExp: "Work Experience",
     workExpE1: "English teacher in primary school (2022-2023)",
     workExpE2:
@@ -38,7 +37,7 @@ const translations = {
     project0:
       "In this exciting challenge, you'll encounter four different types of ships: Four single-cell ships. Three two-cell ships. Two three-cell ships. One formidable four-cell ship. Your mission is to strategically sink all of these ships. The game has 3 game modes with separated local ranking.",
     project1:
-      "This website represents a fictional company and holds great significance for me. It marks a significant milestone as it is my first independent project, without relying on Youtube tutorials or other step-by-step resources. I successfully completed this project during my Fullstack Frontend Developer course at GOIT.",
+      "This website represents a fictional company and holds great significance for me. It marks a significant milestone as it is my first independent project, without relying on Youtube tutorials or other step-by-step resources. I successfully completed this project during my Full Stack Developer course at GOIT.",
     project2:
       "The pack of tasks showcasing my skills in JavaScript programming. These tasks were originally prepared by GOIT for their course, which I have successfully completed and then improved upon in this project.",
     project3:
@@ -62,7 +61,7 @@ const translations = {
     technologiesWorked: "Technologie z którymi pracowałem",
     recentProjects: "Ostatnie projekty",
     projectDesc1:
-      "Ta strona internetowa jest reprezentacją fikcyjnej firmy. Jest to ważny kamień milowy dla mnie, ponieważ jest to pierwszy projekt, który stworzyłem samodzielnie, bez polegania na poradnikach z YouTube ani innych krok po kroku materiałach. Ten projekt został ukończony w ramach mojego kursu Fullstack Frontend Developer organizowanego przez GOIT.",
+      "Ta strona internetowa jest reprezentacją fikcyjnej firmy. Jest to ważny kamień milowy dla mnie, ponieważ jest to pierwszy projekt, który stworzyłem samodzielnie, bez polegania na poradnikach z YouTube ani innych krok po kroku materiałach. Ten projekt został ukończony w ramach mojego kursu Full Stack Developer organizowanego przez GOIT.",
     projectDesc2:
       "Jest to zestaw zadań prezentujących moje umiejętności programowania w języku JavaScript. Te zadania zostały pierwotnie przygotowane przez GOIT na potrzeby ich kursu, który ukończyłem z sukcesem, a następnie ulepszyłem w ramach tego projektu.",
     projectDesc3:
@@ -77,8 +76,7 @@ const translations = {
     aboutMe:
       "Jestem spokojnym, zorganizowanym i zdeterminowanym osobnikiem o silnej pasji do programowania i kulturystyki. Posiadając doświadczenie w edukacji, wyróżniam się umiejętnościami komunikacji, rozwiązywania problemów oraz efektywnego planowania. Pracując zdalnie jako edytor stron internetowych przez 2 lata, doskonaliłem umiejętność samodzielnego zarządzania czasem pracy. W trakcie mojej ścieżki edukacyjnej pomyślnie zrealizowałem siedem projektów i ciągle zgłębiam tajniki programowania, nieustannie pracując nad nowymi, ekscytującymi przedsięwzięciami.",
     careerObjectiveH: "Cele Zawodowe",
-    careerObjective:
-      "We wrześniu 2022 roku odnalazłem swoją pasję do programowania, co zapoczątkowało moją przygodę w branży IT. Obecnie uczestniczę w kursie 'Fullstack Frontend Developer' organizowanym przez GOIT, zdobywając biegłość w HTML, CSS, SASS i JavaScript. Aktywnie poszerzam swoją wiedzę z zakresu NodeJS i React. Dodatkowo zapoznałem się z kluczowymi narzędziami do frontendowego rozwoju, takimi jak Github, Figma, ChatGPT i wiele innych. Z niecierpliwością kontynuuję rozwój moich umiejętności w programowaniu i rozwoju frontendu.",
+    careerObjective: `We wrześniu 2022 roku odnalazłem swoją pasję do programowania, co zapoczątkowało moją przygodę w branży IT. Obecnie uczestniczę w kursie "Full Stack Developer" organizowanym przez GOIT, zdobywając biegłość w HTML, CSS, SASS i JavaScript. Aktywnie poszerzam swoją wiedzę z zakresu NodeJS i React. Dodatkowo zapoznałem się z kluczowymi narzędziami do fullstackowego rozwoju, takimi jak Github, Figma, ChatGPT i wiele innych. Z niecierpliwością kontynuuję rozwój moich umiejętności w programowaniu i rozwoju fullstack developmentu.`,
     workExp: "Doświadczenie Zawodowe",
     workExpE1:
       "Nauczyciel języka angielskiego w szkole podstawowej (2022-2023)",
@@ -91,7 +89,7 @@ const translations = {
     project0:
       "W tym ekscytującym wyzwaniu spotkasz cztery różne typy statków: cztery jednokomórkowe statki. Trzy dwukomórkowe statki. Dwa trzykomórkowe statki. Jeden potężny czterokomórkowy statek. Twoim zadaniem jest strategiczne zatopienie wszystkich tych statków. Gra posiada 3 poziomy trudności do wyboru oraz rozdzielony lokalny ranking.",
     project1:
-      "Ta strona internetowa przedstawia fikcyjną firmę i ma dla mnie ogromne znaczenie. To ważny kamień milowy, ponieważ jest to mój pierwszy samodzielny projekt, bez korzystania z poradników na YouTube ani innych krok po kroku materiałów. Pomyślnie ukończyłem ten projekt podczas kursu Fullstack Frontend Developer w GOIT.",
+      "Ta strona internetowa przedstawia fikcyjną firmę i ma dla mnie ogromne znaczenie. To ważny kamień milowy, ponieważ jest to mój pierwszy samodzielny projekt, bez korzystania z poradników na YouTube ani innych krok po kroku materiałów. Pomyślnie ukończyłem ten projekt podczas kursu Full Stack Developer w GOIT.",
     project2:
       "Jest to zestaw zadań prezentujących moje umiejętności programowania w języku JavaScript. Te zadania zostały pierwotnie przygotowane przez GOIT na potrzeby ich kursu, który ukończyłem z sukcesem, a następnie ulepszyłem w ramach tego projektu.",
     project3:
