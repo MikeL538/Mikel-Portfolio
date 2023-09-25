@@ -34,18 +34,20 @@ const translations = {
     workExpE3: "English teacher in primary school (2021-2022)",
     workExpE4: "Assistant of designer (2017-2020)",
     finishedProjects: "Finished Projects",
-    project0:
+    projectBattleships:
       "In this exciting challenge, you'll encounter four different types of ships: Four single-cell ships. Three two-cell ships. Two three-cell ships. One formidable four-cell ship. Your mission is to strategically sink all of these ships. The game has 3 game modes with separated local ranking.",
-    project1:
+    projectWebStudio:
       "This website represents a fictional company and holds great significance for me. It marks a significant milestone as it is my first independent project, without relying on Youtube tutorials or other step-by-step resources. I successfully completed this project during my Full Stack Developer course at GOIT.",
-    project2:
+    projectJsEx:
       "The pack of tasks showcasing my skills in JavaScript programming. These tasks were originally prepared by GOIT for their course, which I have successfully completed and then improved upon in this project.",
-    project3:
+    projectAnemone:
       'This website showcases a fictional florist named "Anemone". Originally a team project by GOIT, we successfully completed it together. However, I wanted to further enhance my skills, so I took the initiative to work on this project independently as well, in to the teamwork aspect.',
-    project4:
+    projectTreine:
       "This website is dedicated to a fictional fitness company that caught my attention on Figma. I made some tweaks to the original design and introduced a modal window feature. Below the button, you'll find a link to the original Figma design.",
-    project5:
+    projectFlippingCard:
       "After watching a video on YouTube showcasing a two-sided portfolio, I was inspired to create my own version using a credit card design. I implemented a click event that triggers a flip effect, resulting in an interactive experience where the bank card flips.",
+    projectFilmoteka:
+      "This is a page created by the students team participating in the Full Stack Developer course organized by GoIT. The page features a movie search engine showcasing a film ranking and recently popular movies. It includes a search function, allowing users to find a specific movie. The displayed information includes movie ratings, its popularity, and the option to play the movie trailer.",
     projectsInProgress: "Projects in progress",
     projectInProgressDesc:
       "Battleships game with local storage of options, sounds and themes.",
@@ -86,18 +88,21 @@ const translations = {
       "Nauczyciel języka angielskiego w szkole podstawowej (2021-2022)",
     workExpE4: "Asystant designera (2017-2020)",
     finishedProjects: "Ukończone Projekty",
-    project0:
+    projectBattleships:
       "W tym ekscytującym wyzwaniu spotkasz cztery różne typy statków: cztery jednokomórkowe statki. Trzy dwukomórkowe statki. Dwa trzykomórkowe statki. Jeden potężny czterokomórkowy statek. Twoim zadaniem jest strategiczne zatopienie wszystkich tych statków. Gra posiada 3 poziomy trudności do wyboru oraz rozdzielony lokalny ranking.",
-    project1:
+    projectWebStudio:
       "Ta strona internetowa przedstawia fikcyjną firmę i ma dla mnie ogromne znaczenie. To ważny kamień milowy, ponieważ jest to mój pierwszy samodzielny projekt, bez korzystania z poradników na YouTube ani innych krok po kroku materiałów. Pomyślnie ukończyłem ten projekt podczas kursu Full Stack Developer w GOIT.",
-    project2:
+    projectJsEx:
       "Jest to zestaw zadań prezentujących moje umiejętności programowania w języku JavaScript. Te zadania zostały pierwotnie przygotowane przez GOIT na potrzeby ich kursu, który ukończyłem z sukcesem, a następnie ulepszyłem w ramach tego projektu.",
-    project3:
+    projectAnemone:
       'Ta strona internetowa prezentuje fikcyjną kwiaciarnię o nazwie "Anemone". Początkowo był to projekt zespołowy w ramach GOIT, który ukończyliśmy razem z sukcesem. Jednak chciałem dalej rozwijać swoje umiejętności, dlatego postanowiłem również samodzielnie stworzyć ten projekt.',
-    project4:
+    projectTreine:
       "Ta strona internetowa jest poświęcona fikcyjnej firmie fitness, która przyciągnęła moją uwagę na platformie Figma. Wprowadziłem pewne zmiany w oryginalnym projekcie i dodałem funkcję okna modalnego. Poniżej przycisku znajdziesz link do oryginalnego projektu na platformie Figma.",
-    project5:
+    projectFlippingCard:
       "Po obejrzeniu filmu na YouTube, w którym przedstawiono dwustronne portfolio, zainspirowałem się do stworzenia swojej własnej wersji wykorzystującej projekt karty kredytowej. Wprowadziłem zdarzenie kliknięcia, które wywołuje efekt odwracania, co daje interaktywne doświadczenie, gdzie karta bankowa się obraca.",
+    projectFilmoteka:
+      "Jest to strona stworzona przez zespół studentów, biorących udział w kursie Full Stack Developer organizowanym przez GoIT. Strona przedstawia wyszukiwarkę filmów, która prezentuje ranking filmów oraz popularne ostatnio filmy. Posiada funkcję wyszukiwarki, umożliwiającą użytkownikowi znalezienie konkretnego filmu. Wyświetlane są oceny dla filmu, jego popularność, a także istnieje możliwość odtworzenia trailera filmu.",
+
     projectsInProgress: "Projekty w trakcie realizacji",
     projectInProgressDesc:
       "Gra w statki, która zawiera lokalnie zapamiętywane ustawień dźwięków czy motywów.",
